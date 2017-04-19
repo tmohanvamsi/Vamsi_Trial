@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+METHOD:PUBLISH
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:Asia/Kolkata
+TZURL:http://tzurl.org/zoneinfo-outlook/Asia/Kolkata
+X-LIC-LOCATION:Asia/Kolkata
+BEGIN:STANDARD
+TZOFFSETFROM:+0530
+TZOFFSETTO:+0530
+TZNAME:IST
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID="Asia/Calcutta":20170408T080000
+DTEND;TZID="Asia/Calcutta":20170408T090000
+LOCATION;ENCODING=QUOTED-PRINTABLE:GoToTraining
+UID:1264948507@citrixonline.com
+DTSTAMP:20170407T184542
+DESCRIPTION:1. Click and join at the specified time and date:\nhttps://global.gototraining.com/join/training/6838023723315557634/107715423\nNote: This link should not be shared with others; it is unique to you.\n\n2. Choose one of the following audio options:\n\nTO USE YOUR COMPUTER'S AUDIO:\nYou must select "Use Mic & Speakers" after joining the training.  A headset is recommended.\n\n-- OR --\n\nTO USE YOUR TELEPHONE:\nUnited States\nToll: +1 (510) 365-3331\nAccess Code: 851-413-341\nAudio PIN: Shown after joining the training\n\nSystem Requirements - http://support.citrixonline.com/en_US/Training/help_files/G2T010003\n\nBrought to you by GoToTraining (R)\nOnline Training Made Easy™\n
+SUMMARY;ENCODING=QUOTED-PRINTABLE:Weblogic Server 12c Administration - Intro Session
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR
